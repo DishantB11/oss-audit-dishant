@@ -55,24 +55,40 @@ oss-audit-dishant/
 
 ## Screenshots
 
-> The following screenshots show the successful execution of each script.
+> The following screenshots show the execution of each script.
 
-### 🔹 Script 1 Output | Script 2 Output
-<p align="center">
-  <img src="screenshots/Script1_output.png" width="45%"/>
-  <img src="screenshots/Script2_output.png" width="45%"/>
-</p>
+<table>
+<tr>
+<td align="center">
+<b>Script 1 Output</b><br>
+<img src="screenshots/Script1_output.png" width="300"/>
+</td>
 
-### 🔹 Script 3 Output | Script 4 Output
-<p align="center">
-  <img src="screenshots/Script3_output.png" width="45%"/>
-  <img src="screenshots/Script4_output.png" width="45%"/>
-</p>
+<td align="center">
+<b>Script 2 Output</b><br>
+<img src="screenshots/Script2_output.png" width="300"/>
+</td>
+</tr>
 
-### 🔹 Script 5 Output
-<p align="center">
-  <img src="screenshots/Script5_output.png" width="60%"/>
-</p>
+<tr>
+<td align="center">
+<b>Script 3 Output</b><br>
+<img src="screenshots/Script3_output.png" width="300"/>
+</td>
+
+<td align="center">
+<b>Script 4 Output</b><br>
+<img src="screenshots/Script4_output.png" width="300"/>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="2">
+<b>Script 5 Output</b><br>
+<img src="screenshots/Script5_output.png" width="400"/>
+</td>
+</tr>
+</table>
 
 ---
 
