@@ -53,36 +53,42 @@ oss-audit-dishant/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-> 📌 The following screenshots show the execution of each script.
+> The following screenshots show the execution of each script.
 
-<div style="display: flex; justify-content: center; gap: 40px;">
-  <div align="center">
-    <b>Script 1 Output</b><br>
-    <img src="screenshots/Script1_output.png" width="300"/>
-  </div>
-  <div align="center">
-    <b>Script 2 Output</b><br>
-    <img src="screenshots/Script2_output.png" width="300"/>
-  </div>
-</div>
+<table>
+<tr>
+<td align="center">
+<b>Script 1 Output</b><br>
+<img src="screenshots/Script1_output.png" width="500"/>
+</td>
 
-<div style="display: flex; justify-content: center; gap: 40px; margin-top: 20px;">
-  <div align="center">
-    <b>Script 3 Output</b><br>
-    <img src="screenshots/Script3_output.png" width="300"/>
-  </div>
-  <div align="center">
-    <b>Script 4 Output</b><br>
-    <img src="screenshots/Script4_output.png" width="300"/>
-  </div>
-</div>
+<td align="center">
+<b>Script 2 Output</b><br>
+<img src="screenshots/Script2_output.png" width="500"/>
+</td>
+</tr>
 
-<div align="center" style="margin-top: 20px;">
-  <b>Script 5 Output</b><br>
-  <img src="screenshots/Script5_output.png" width="400"/>
-</div>
+<tr>
+<td align="center">
+<b>Script 3 Output</b><br>
+<img src="screenshots/Script3_output.png" width="500"/>
+</td>
+
+<td align="center">
+<b>Script 4 Output</b><br>
+<img src="screenshots/Script4_output.png" width="500"/>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="2">
+<b>Script 5 Output</b><br>
+<img src="screenshots/Script5_output.png" width="500"/>
+</td>
+</tr>
+</table>
 
 ---
 
