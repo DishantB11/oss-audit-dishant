@@ -70,6 +70,8 @@ oss-audit-dishant/
 ### Script 5 Output
 ![Script 5](screenshots/Script5_output.png)
 
+> These screenshots show the successful execution of all scripts in the Linux environment.
+
 ---
 
 ## How to Run
@@ -86,6 +88,7 @@ OR
 ```bash
 bash script.sh
 ```
+---
 ## Requirements
 - Linux (Ubuntu recommended)
 - Bash shell
