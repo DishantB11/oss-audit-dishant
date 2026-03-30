@@ -1,19 +1,21 @@
 #!/bin/bash
-# Script 2: FOSS Package Inspector
+# Script: FOSS Package Inspector
 
 PACKAGE="git"
 
 # Check if package is installed
-if dpkg -l | grep -w "$PACKAGE" > /dev/null; then
+INFO=$(dpkg -l | grep -w "^ii  $PACKAGE")
+
+if [ -n "$INFO" ]; then
     echo "$PACKAGE is installed."
     
-    VERSION=$(dpkg -l | grep -w "$PACKAGE" | awk '{print $3}')
+    VERSION=$(echo "$INFO" | awk '{print $3}')
     echo "Version: $VERSION"
 else
     echo "$PACKAGE is NOT installed."
 fi
 
-# Case statement
+# Description using case
 case $PACKAGE in
     git)
         echo "Git: a distributed version control system for tracking code changes"
@@ -25,9 +27,3 @@ case $PACKAGE in
         echo "MySQL: an open-source relational database system"
         ;;
     vlc)
-        echo "VLC: a multimedia player that supports multiple formats"
-        ;;
-    *)
-        echo "Unknown package"
-        ;;
-esac
