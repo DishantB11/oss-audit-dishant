@@ -27,3 +27,9 @@ case $PACKAGE in
         echo "MySQL: an open-source relational database system"
         ;;
     vlc)
+        echo "VLC: a multimedia player that supports multiple formats"
+        ;;
+    *)
+        echo "Unknown package"
+        ;;
+esac
